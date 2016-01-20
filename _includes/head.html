@@ -11,7 +11,13 @@
     <title>{{ site.title | xml_escape }}</title>
   {% endif %}
 
-  <meta
-    name="description"
-    content="{{ site.description | xml_escape }}">
+  {% if page.description %}
+    <meta
+      name="description"
+      content="{{ page.description | xml_escape }}">
+  {% else %}
+    <meta
+      name="description"
+      content="{{ site.description | xml_escape }}">
+  {% endif %}
 </head>

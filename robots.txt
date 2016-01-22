@@ -6,3 +6,7 @@ layout: null
 # http://www.robotstxt.org/
 User-agent: *
 Disallow:
+
+# Sitemap
+# http://www.sitemaps.org/protocol.html
+Sitemap: https://zombination.net/sitemap.xml

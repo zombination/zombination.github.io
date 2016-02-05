@@ -28,7 +28,7 @@ gems:
 markdown: kramdown
 
 # Code highlighter settings
-highlighter: pygments
+highlighter: rouge
 
 # Sass settings
 # http://sass-lang.com/

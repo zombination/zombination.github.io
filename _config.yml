@@ -27,6 +27,11 @@ gems:
 # Markdown settings
 markdown: kramdown
 
+# Kramdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 # Code highlighter settings
 highlighter: rouge
 

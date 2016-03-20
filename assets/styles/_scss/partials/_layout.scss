@@ -41,6 +41,11 @@ body {
             font-size: 1.5rem;
             color: #565656;
             text-transform: capitalize;
+
+            &::selection {
+                background: rgba(0, 0, 0, .4);
+                color: #888;
+            }
         }
     }
 }
